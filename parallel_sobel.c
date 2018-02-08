@@ -23,7 +23,7 @@ void sobel_filtering( )
   /* Maximum values calculation after filtering*/
   printf("Now, filtering of input image is performed\n\n");
   min = FLT_MAX;
-  max = -FLT_MAX;
+  max = FLT_MIN;
  
   for (y = 1; y < y_size1 - 1; y++) {
     for (x = 1; x < x_size1 - 1; x++) {

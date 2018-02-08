@@ -39,7 +39,7 @@ void load_image_data( )
   printf("-----------------------------------------------------\n\n");
   printf("     Only pgm binary file is acceptable\n\n");
   printf("Name of input image file? (*.pgm) : ");
-  fp = fopen("/home/gunay/dssem/mountain.pgm", "rb");
+  fp = fopen("/home/gunay/gunay/ds_seminar/DS-seminar/mountain.pgm", "rb");
   if (NULL == fp) {
     printf("     The file doesn't exist!\n\n");
     exit(1);

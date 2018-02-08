@@ -46,7 +46,7 @@ void sobel_filtering( )
   x_size2 = x_size1;
   y_size2 = y_size1;
   wtime = omp_get_wtime ( );
-  # pragma omp parallel shared ( min, max,image2,weight,image1 ) private ( y, x, i, j,pixel_value )
+  # pragma omp target parallel shared ( min, max,image2,weight,image1 ) private ( y, x, i, j,pixel_value )
   {
   # pragma omp for
   for (y = 0; y < y_size2; y++) {

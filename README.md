@@ -20,3 +20,5 @@ https://people.sc.fsu.edu/~jburkardt/c_src/pgma_io/pgma_io.html
 
 https://www.researchgate.net/publication/239398674_An_Isotropic_3_3_Image_Gradient_Operator
 
+http://on-demand.gputechconf.com/gtc/2016/presentation/s6510-jeff-larkin-targeting-gpus-openmp.pdf
+

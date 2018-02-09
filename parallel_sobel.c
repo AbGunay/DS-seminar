@@ -15,8 +15,8 @@ void sobel_filtering( )
   int weight[3][3] = {{ -1,  0,  1 },
 		      { -2,  0,  2 },
 		      { -1,  0,  1 }};
-  double pixel_value;
-  double min, max,wtime;
+  float pixel_value;
+  float min, max,wtime;
   int x, y, i, j;  /* Loop variable */
 
   

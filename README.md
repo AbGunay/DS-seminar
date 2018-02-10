@@ -3,13 +3,13 @@ Distribited System Seminar
 
 how to run parallel_sobel.c
 
-gcc -o p_filter -fopenmp parallel_sobel.c
+gcc -o p_filter -O3 -fopenmp parallel_sobel.c
 
 ./p_filter
 
 how to sun sobel.c
 
-gcc -o filter -fopenmp sobel.c
+gcc -o filter -O3 -fopenmp sobel.c
 
 ./filter
 

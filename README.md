@@ -9,7 +9,7 @@ gcc -o p_filter -fopenmp parallel_sobel.c
 
 how to sun sobel.c
 
-gcc -o filter -fopenmp parallel_sobel.c
+gcc -o filter -fopenmp sobel.c
 
 ./filter
 

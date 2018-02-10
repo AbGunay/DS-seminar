@@ -68,9 +68,9 @@ void sobel_filtering( )
       image2[y][x] = (unsigned char)pixel_value;
     }
   }
+}
   wtime = omp_get_wtime ( ) - wtime;
   printf ( "  Elapsed seconds = %g\n", wtime );
-}
 }
 int main( )
 {
